@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class ReportController {
 
-	@GetMapping("/user")
+	@GetMapping("/user123")
 	public String welcome() {
 		return "Welcome User";
 	}
-	@GetMapping("/admin")
+	@GetMapping("/admin123")
 	public String welcomeAdmin() {
 		return "Welcome Admin ";
 	}
